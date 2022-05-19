@@ -1,37 +1,45 @@
 body{
-    background-color: #F0F2F5;
-    width: 95%;
-    padding: 0 10px;
+    width: 100%;
+    padding: 0 ;
     margin: 0;
  }
 
 .body{
     display: flex;
-    flex-direction: row;
-    width: 95%;
-    flex-direction: row;
+    flex-direction: nowrap;
+    width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     overflow: none;
-    margin: 5% 0% 10%;
     padding-bottom: 50px;
+    background-color: #F0F2F5;
+    padding: 4rem 0 12rem 0;
 }
 
 .Facebook_logo{
-    width: 49%;
-    padding: 0 30px;
+    width: 40%;
+    padding: 0 30px 0 8.9rem;
+    margin: -50px 0 0 1%;
     margin-left: 1%;
+    display: block;
 }
 
-.Facebook_logo img{
-    width: 50%;
-    margin: -90px 20px 0px;
+.logo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+.logo img{
+    width: 57%;
+    margin: 0;
+}
+
 .Facebook_logo p{
-    width: 90%;
-    margin: -10px -30px 0 50px;
-    padding-right: 0;
-    font-size: 28px;
+    width: 100%;
+    padding: 0 10px 0 30px;
+    margin-top: -15px;
+    font-size: 27px;
     font-weight: 400;
     color: #1C1E21;
     letter-spacing: 0.6px;
@@ -40,23 +48,24 @@ body{
 
 form{
     width: 35%;
-    margin-left: -30px;
+    margin: 60px 0 0 -145px;
 }
+
 .form_group{
-    width: 90%;
+    width: 84%;
     background-color: white;
-    padding: 10px 5px 15px;
     border-radius: 8px;
-    margin: 65px 0 0 30px;
+    padding-left: -40px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 3S0px;
 }
 
 .form_group1{
     width: 83%;
     margin: 0px 10px;
     padding: 0px 5px;
-    position: relative;
 }
-
 
 .form_group p{
     font-size: 15px;
@@ -109,9 +118,9 @@ form{
 }
 
 .form_group .new{
-    padding: 12px 15px;
+    padding: 11px 15px;
     width: 50%;
-    margin: 20px 25% 10px;
+    margin: 20px 25% 28px;
     border-radius: 5px;
     border: #42B72A solid 1px;
     font-size: 15px;
@@ -123,11 +132,23 @@ form{
 .form_group .new:hover{
     background-color: #36A420;
 }
+.password_cont{
+    display: inline;
+}
+.password_cont input{
+    position: relative;
+}
+.form_group i{
+    color: black;
+    background-color: white;
+    position: absolute;
+    margin: -40px 0 0 85%;
+}
 
 .create_page{
     align-items: center;
     padding: 10px 5px 15px;
-    width: 106%;
+    width: 100%;
 }
 
 .create_page p{
@@ -146,29 +167,38 @@ form{
 .create_page p a:hover{
     text-decoration: underline;
 }
+
 .body:after{
     content: '';
-    display: block;
+    display: table;
     clear: both;
 }
+
 footer{
-    width: 100%;
+    width: auto;
     text-align: left;
-    margin: 1% 0;
-    background-color: #FFFFFF;
-    padding: 20px 25px;
+    background-color: #ffffff;
+    padding: 0 10rem;
+    margin: 0;
 }
 
+.footer-cont{
+    padding: 20px 50px;
+}
 footer button{
     font-size: 20px;
     margin-top: -10px;
 }
 
 footer p{
-    width: 70%;
+    width: 90%;
     text-align: left;
     color: rgb(108, 109, 109);
     font-size: 13px;
     word-spacing: 10px;
-    margin: 10px 10% 0px 15%;
+    padding: auto 40px;
+}
+
+.cont2{
+    border-top: #DADDE1 1.5px dashed;
 }

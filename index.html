@@ -1,63 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A replica of Facebbok landing page">
-    <meta name="keywords" content="web design, affordable web design, Facebook">
-    <meta name="author" content="Tomiisin Sola">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A replica of Facebbok landing page" />
+    <meta
+      name="keywords"
+      content="web design, affordable web design, Facebook"
+    />
+    <meta name="author" content="Tomiisin Sola" />
     <title>Facebookk.com</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="body">
-        <div class="Facebook_logo">
-            <div class="logo">
-                <img src="img/dF5SId3UHWd.svg" alt="fb logo" srcset="">
-            </div>
-            <p>Facebook helps you connect and share with the people in your life.</p>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="section-container">
+      <div class="container">
+        <div class="banner">
+          <div class="logo-container">
+            <img src="img/dF5SId3UHWd.svg" alt="fb logo" srcset="" />
+          </div>
+          <p>
+            Facebook helps you connect and share with the people in your life.
+          </p>
         </div>
         <form action="submit">
-            <div class="form_group">
-                <div class="form_group1">
-                    <div class="email_cont">
-                        <input type="email" name="Email" placeholder="Email Adrdress of Phone Number">
-                    </div> 
-                    <div class="password_cont">
-                        <input type="password" class="passsword" name="password" placeholder="Password" >
-                        <i class="fa fa-eye-slash" aria-hidden="true"></i>                    
-                    </div>
-                    <div class="login_button">
-                        <button type="submit" >Log In</button>
-                        <p><a href="#">Forgotten password?</a></p>
-                    </div>
-                </div>
-                <div class="form_group2">
-                    <button type="submit" class="new">Create New Account</button>
-                </div>
+          <div class="form-wrapper">
+            <div class="form-group">
+              <input
+                type="email"
+                name="Email"
+                placeholder="Email Adrdress of Phone Number"
+                class="form-control"
+              />
             </div>
-            <div class="create_page">
-                <p><span><a href="#">Create a page</a></span> for a celebrity, brand or business.</p>
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control password-input"
+                name="password"
+                placeholder="Password"
+              />
+              <i class="fa fa-eye-slash password-icon" aria-hidden="true"></i>
             </div>
+            <div class="login_button">
+              <button type="submit">Log In</button>
+              <p class="forgot-password">
+                <a href="#">Forgotten password?</a>
+              </p>
+            </div>
+            <div class="dash"></div>
+            <div class="create-btn-wrapper">
+              <button type="submit" class="create-btn">
+                Create New Account
+              </button>
+            </div>
+          </div>
+          <div class="create_page">
+            <p>
+              <span><a href="#">Create a page</a></span> for a celebrity, brand
+              or business.
+            </p>
+          </div>
         </form>
-    </div>
+      </div>
+    </section>
     <footer>
-        <div class="footer-cont">
-            <div class="cont1">
-                <p>English (UK) Hausa Français (France) Português (Brasil) Español العربية Bahasa Indonesia Deutsch 日本語 Italiano हिन्दी             <button type="submit">+</button></p>
-            </div>
-            <div class="cont2">
-                <p>Sign Up  Log In  Messenger   Facebook Lite   Watch   Places  Games   Market place    Facebook Pay    Oculus  Portal  Instagram   Bulletin    Local   Fundraisers Services Voting Information Centre Groups About Create adCreate Page Developers Careers Privacy Cookies AdChoices Terms Help Settings Activity log</p>
-            </div>
-            <div>
-                <p style="word-spacing: 1px;"> Meta &copy 2022</p>
-            </div>
+      <div class="footer-cont">
+        <div class="cont1">
+          <p>
+            English (UK) Hausa Français (France) Português (Brasil) Español
+            العربية Bahasa Indonesia Deutsch 日本語 Italiano हिन्दी
+            <button type="submit">+</button>
+          </p>
         </div>
+        <div class="cont2">
+          <p>
+            Sign Up Log In Messenger Facebook Lite Watch Places Games Market
+            place Facebook Pay Oculus Portal Instagram Bulletin Local
+            Fundraisers Services Voting Information Centre Groups About Create
+            adCreate Page Developers Careers Privacy Cookies AdChoices Terms
+            Help Settings Activity log
+          </p>
+        </div>
+        <div>
+          <p style="word-spacing: 1px">Meta &copy 2022</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
